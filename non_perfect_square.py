@@ -1,3 +1,4 @@
+#program to print non perfect squares in a given range
 for i in range(101):
     f=0
     for j in range(2,i):

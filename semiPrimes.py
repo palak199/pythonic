@@ -1,5 +1,7 @@
+# A semiprime number is an integer which can be expressed as a product of two distinct primes. For example 15 = 3*5 is a semiprime number but 9 = 3*3 is not .
+# Given an integer number N, find whether it can be expressed as a sum of two semi-primes or not (not necessarily distinct).
+
 from itertools import combinations as c
-  
 def prime(n):
     f=0
     for i in range(2,n):

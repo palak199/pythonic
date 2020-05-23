@@ -1,3 +1,4 @@
+#program to make lower triangular matrix zero
 n=int(input())
 matrix=[[int(input()) for x in range (n)] for y in range (n)]
 for i in range(n):
